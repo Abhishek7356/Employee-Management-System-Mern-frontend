@@ -1,0 +1,46 @@
+
+EMS - FRONTEND
+----------------------------------------------------------
+
+1.create a new project - npx create-react-app ems-frontend
+2.cd ems-frontend
+3.npm start
+4.clear the project unwanted codes and files
+5.install third party libraries
+  -mdb bootstrap -npm i mdb-react-ui-kit
+  -font awesome - npm i @fortawesome/fontawesome-free
+
+    index.js
+    --------
+    import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+    import "@fortawesome/fontawesome-free/css/all.min.css";
+
+  -react-bootstrap - npm install react-bootstrap bootstrap
+  -google fonts - 
+
+    index.html
+    ----------
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+6.create components
+
+    ->Admin.jsx
+    ->Add.jsx
+    ->Edit.jsx
+    ->View.jsx
+    ->PageNotFound.jsx
+    ->Header.jsx
+    ->Footer.jsx
+
+    
+7.set path
+     npm install react-router-dom
+        -BrowserRouter
+        -Routes
+        -Route
+
+8.API CALL
+  install axios - npm i axios
+  1st api call in admin.jsx
